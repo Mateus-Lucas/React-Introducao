@@ -5,12 +5,13 @@ const Cabecalho = () => {
   return (
     <>
     <Navbar bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+      <Container className='m-0'>
+        <Navbar.Brand href="#home">Sistema Acadêmico</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#home">Página 1</Nav.Link>
+          <Nav.Link href="#features">Página 2</Nav.Link>
+          <Nav.Link href="#pricing">Array</Nav.Link>
+          <Nav.Link href="#pricing">Carros</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
